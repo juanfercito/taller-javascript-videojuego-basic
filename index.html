@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+        <canvas id="game"></canvas>
+
+        <div class="button">
+
+            <button id="up">up</button>
+            <button id="left">left</button>
+            <button id="right">right</button>
+            <button id="down">down</button>
+
+        </div>
+
+        <div class="messages">
+            <p>
+                lives: <span id="lives"></span>
+            </p>
+            <p>
+                Time: ⏲️<span id="time"></span>
+            </p>
+            <p>
+                score: 🏆<span id="score"></span>
+            </p>
+
+            
+        </div>
+
+        <div class="endgame-window">
+            <p id="endgame"></p>
+            <p id="trophy"> 🏆</p>
+            <p id="message">FOR YOU: </p>
+            <button id="play-again">Play again</button>
+        </div>
+       
+
+    </div>
+
+    <script src="./maps.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
